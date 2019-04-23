@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   get "/restaurants/:id/edit", to: "restaurants#edit", as: "edit_restaurant"
 
   post "/reviews", to: "reviews#create", as: "review"
-  
+  delete "/restaurants/:id", to:"restaurants#destroy", as: "delete_restaurant"
   root 'restaurants#index'
 end
