@@ -22,7 +22,7 @@ Restaurant.destroy_all
   reviews = rand(6)
   reviews.times do
     params = {
-      title: Faker::Restaurant.unique.name,
+      title: Faker::Name.name,
       rating: rand(5),
       content: Faker::Lorem.paragraph,
       restaurant_id: restaurant.id

@@ -63,3 +63,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Adds faker gem to populate restaurant data
 gem "faker", "~> 1.9"
+
+#adding bootstrap
+gem 'bootstrap'
+
+#adding jquery
+gem 'jquery-rails'
+
+gem 'devise'
+gem 'cancancan'
