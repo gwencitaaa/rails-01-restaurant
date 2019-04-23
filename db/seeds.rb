@@ -33,9 +33,6 @@ Restaurant.destroy_all
   end
 end
 
-puts "Seeding Over"
-
-
 puts 'Creating an admin user'
 User.new({ :email => 'admin@admin.com.au', :password => 'password321', :password_confirmation => 'password321', :admin => 'true'}).save
 
