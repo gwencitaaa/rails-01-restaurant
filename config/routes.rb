@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :charges
+
   devise_for :users
   get "/restaurants", to: "restaurants#index", as: "restaurants"
   post "/restaurants", to: "restaurants#create"
